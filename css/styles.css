@@ -27,7 +27,6 @@ body {
 
 img {
   display: block;
-  margin-bottom: 32px;
 }
 
 .container {
@@ -221,10 +220,14 @@ header {
 .team-info {
   background-color: #ffffff;
   text-align: center;
-  margin-bottom: 32px;
-}
-.team-info .text {
-  margin-bottom: 32px;
+  border-radius: 0px 0px 4px 4px;
+ }
+.team-ctr {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 32px 0;
 }
 
 /* fourth-section */
@@ -236,21 +239,20 @@ header {
   column-gap: 24px;
   row-gap: 48px;
 }
-.second-header.ourportf {
-  margin-bottom: 72px;
-}
+
 .portf-list-item {
-  border: 1px solid #e7e9fc;
   width: calc((100% - 48px) / 3);
 }
-.portf-list-item > .text {
-  margin-bottom: 32px;
+
+.prtf-cntr {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-top: 0;
+  /* margin-bottom: 8px; */
 }
-.portf-list-item > .text {
-  padding-left: 16px;
-}
-.portf-list-item > .third-header {
-  padding-left: 16px;
+.second-header.ourportf {
+  margin-bottom: 72px;
 }
 
 /* footer */
