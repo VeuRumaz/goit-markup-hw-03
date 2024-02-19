@@ -223,7 +223,6 @@ header {
 .team {
   display: flex;
   gap: 24px;
-  padding: 32px 0;
 }
 .team-info {
   background-color: #ffffff;
